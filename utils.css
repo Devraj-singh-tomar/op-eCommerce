@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+}
+
+.align-Center{
+    align-items: center;
+}
+
+.justify-Center{
+    justify-content: center;
+}
+
+.space-Between{
+    justify-content: space-between;
+}
+
+.right-Element{
+    margin-left: -13px;
+    margin-right: 17px;
+    cursor: pointer;
+    font-size: 1.345rem;
+    font-weight: bold;
+}
+
+.right-Icon{
+    padding: 3px 17px;
+}
