@@ -86,7 +86,7 @@
     border-radius: 10px;
 }
 
-.hero button:hover{
+.hero button:hover {
     background-color: whitesmoke;
     color: black;
 }
@@ -164,14 +164,14 @@
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
-    margin: 15px 0;
+    margin: 15px 10px;
     transition: 0.2s ease;
     position: relative;
 }
 
-#product-1 .product-container{
+#product-1 .product-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 20px;
     flex-wrap: wrap;
 }
@@ -229,7 +229,7 @@
 
 /* ================ 5 section ===================*/
 
-#banner{
+#banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,35 +242,211 @@
     background-size: cover;
 }
 
-#banner h4{
+#banner h4 {
     color: rgb(0, 0, 0);
 }
 
-#banner h2{
+#banner h2 {
     color: black;
     font-size: 30px;
     padding: 10px 0;
 }
 
-#banner h2 span{
+#banner h2 span {
     color: purple;
 }
 
-button.normal{
+button.normal {
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
     color: rgb(255, 255, 255);
     background-color: black;
     border-radius: 5px;
-    cursor:pointer;
+    cursor: pointer;
     border: none;
     outline: none;
-    transition: 0.3s ;
+    transition: 0.3s;
 }
 
-#banner button:hover{
+#banner button:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
+/* ===================== 6 section same ============== */
+
+/* ==================== 7 section ================= */
+
+#sm-banner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    background-image: url(assets/smallbanners/bannersmall1.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    cursor: pointer;
+    margin: 0 40px;
+}
+
+#sm-banner .banner-bg-2 {
+    background-image: url(assets/smallbanners/bannerman1.jpg);
+}
+
+#sm-banner h4 {
+    color: rgb(84, 3, 53);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2 {
+    color: black;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    color: purple;
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+button.white {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    /* outline: none; */
+    transition: 0.2s;
+    /* border-radius: 6px; */
+}
+
+/* button.white:hover{
+    background-color: black;
+    color: white;
+} */
+
+#sm-banner .banner-box:hover button {
+    background-color: rgb(0, 29, 248);
+    border: 1px solid rgb(0, 29, 248);
+    ;
+}
+
+/* ================ 8 section ====================*/
+
+#banner-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner-3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    background-image: url(assets/smallbanners/bannersmall2.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#banner-3 .banner-bg-3 {
+    background-image: url(assets/smallbanners/bannersmall1.jpg);
+}
+
+#banner-3 .banner-bg-4 {
+    background-image: url(assets/smallbanners/bannersmall2.jpg);
+}
+
+#banner-3 h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner-3 h3 {
+    color: rgb(85, 0, 205);
+    font-weight: 800;
+    font-size: 15px;
+}
+
+/* ==================== 9 section ================ */
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(assets/newsletterbg.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #60d9cc;
+}
+
+#newsletter h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsletter p {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#newsletter p span {
+    color: goldenrod;
+}
+
+#newsletter .form {
+    width: 40%;
+    display: flex;
+}
+
+#newsletter input {
+    height: 3.1rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgb(15, 152, 237);
+    color: black;
+    white-space: nowrap;
+    /* margin: 0 12px; */
+}
+
+#newsletter button:hover{
+    background-color: rgb(2, 220, 42);
+}
